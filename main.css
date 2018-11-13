@@ -1,0 +1,151 @@
+
+
+body {
+	background-color:#999;
+	font: 15px/1.5 Arial, Helvetica, sans-sarif;
+	padding:0;
+	margin:0;
+}
+
+/*global*/
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+.button_1{
+	height: 38px;
+	background: #a6bbf2;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color:#ffffff;
+}
+
+/*Header*/
+header {
+	background: #35424a;
+	color:#ffffff;
+	padding-top: 5px;
+	min-height: 70px;
+	border-bottom: #a6bbf2 3px solid;
+
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	position: relative;
+	padding: 0 20px 0 20px;
+	margin-top: 28px;
+	
+
+}
+
+header #branding{
+	float: left;
+}
+
+header nav{
+	float: right;
+	
+}
+
+header h1{
+	color: white;
+	position: relative;
+	
+}
+
+header .highlight, header .current a{
+	color: #a6bbf2;
+	font-weight: bold;
+
+}
+
+header a:hover{
+	color:#cccccc;
+	font-weight: bold;
+}
+
+/*showcase*/
+#showcase{
+	min-height: 400px;
+	background-image: url("../images/showcaseback.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 -100px;
+	text-align: center;
+	color:#ffffff;  
+}
+
+#showcase h1{
+	margin-top: 276px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size: 21px;
+}
+
+/*subscription*/
+
+#subscription{
+	padding: 0;
+	color: #ffffff;
+	background: #35424a;
+}
+
+#subscription h1{
+	float: left;
+}
+
+#subscription form{
+	float: right;
+	padding-top: 15px;
+}
+
+#subscription input[type="email"]{
+	padding:4px;
+	height: 25px;
+	width: 250px;
+}
+
+/*boxes*/
+
+#boxes{
+	margin-top: 20px;
+}
+
+#boxes .box{
+	float: left;
+	width: 30%;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+#boxes .box img{
+	width: 90px;
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #35424a;
+	text-align: center;
+	border-top: #a6bbf2 1px solid;
+}
